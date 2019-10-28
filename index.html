@@ -1,82 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<head>
+  <title>Jordan Childs</title>
+  <meta http-equiv= "Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name= "viewport" content= "width=device-width, initial-scale=1, user-scalable=0"/>
+  <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type= "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="local.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
 
-    <title>Jumbotron Template for Bootstrap</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-  </head>
-
-<body style="background-image: linear-gradient(rgb(20, 20, 20), rgb(197, 197, 196)); height: 100%; margin:0%;">
-<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Navbar</a>
-
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<body>
+  <nav class="navbar navbar-expand-md navbar-fixed-top navbar-light mb-5">
+    <a class="navbar-brand" href="#">Jordan Childs</a>
+    <div class="navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#resume">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
-</nav>
+    </div>
+  </nav>
 
-
-
-    <section id="about">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-4 col-md-4">
-            <div class="about-img">
-              <img src="jordan.jpeg" alt="" class="rounded" >
-            </div>
-          </div>
-
-          <div class="col-md-7 col-md-6">
-              <div class="about-content">
-                <h2>About Me</h2>
-                <h3> I am currently a student at Portland State University, finishing up a Masters degree in Computer Science</h3>
-                <p> I grew up outside of Los Angeles in a town called Oak Park. When it came time to choose colleges, I decided on
-                    the Univeristy of Oregon where I completed a degree in Psychology, I spent the few years after graduating working 
-                    Research lab where I studied Developmental Neuroscience. I eventually decided to transiton into computer science where 
-                    particapted in an accelerated post-bac program. I will be graduating with my Masters degree in March of 2020.</p> 
-                </p>
-              </div>
-          </div>
-
-        </div>
+  <section id="home"  class="home-section"> 
+    <div clas="container-fluid">
+      <div clas="row">
+        <div class="col-md-12">
+          <h1>Welcome To My Site!</h1>
+        </div>    
       </div>
-    </section>
+    </div>
+  </section >
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-4">
+          <div class="about-img">
+            <img class="img-fluid rounded" src="jordie-profesh_01.jpg" alt="" class="rounded" >
+          </div>
+        </div>
+
+        <div class="col-md-7 col-md-6">
+            <div class="about-content">
+              <h2>About Me</h2>
+              <h3> I am currently a student at Portland State University, finishing up a Masters degree in Computer Science</h3>
+              <p> I grew up outside of Los Angeles in a town called Oak Park. When it came time to choose colleges, I decided on
+                  the Univeristy of Oregon where I completed a degree in Psychology, I spent the few years after graduating working 
+                  Research lab where I studied Developmental Neuroscience. I eventually decided to transiton into computer science where 
+                  particapted in an accelerated post-bac program. I will be graduating with my Masters degree in March of 2020.</p> 
+              </p>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
     <section id="resume">
       <div class="container">
       <h1>This is the Resume <section></section></h1>
+        <div class="embeded-responsive" style="padding-bottom: 150%"> 
+          <object data="Resume.pdf" type="application/pdf" width="100%" height="800px">
+          </object>
+         </div> 
       </div>
     </section>
 
@@ -92,6 +88,7 @@
         </div>
     </section>
 
+   <!-- 
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
@@ -105,6 +102,7 @@
     <script src="../assets/js/bootstrap-collapse.js"></script>
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
+   -->
 </body>
 </html>
 

@@ -1,0 +1,27 @@
+.section {
+    height: 100vh;
+}
+
+
+
+.home-section {
+    background-image: url("daylight-environment-forest-459225.jpg");
+    background-color: #cccccc;
+    height: 100vh;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section {
+    height: 100vh;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+    background: blue !important;
+}
+
