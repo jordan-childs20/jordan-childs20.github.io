@@ -32,6 +32,17 @@ body {
 .about-img {
     display: flex;
     align-items: center;
+    padding: 10px;
+}
+
+.resume-expereince,
+.resume-education,
+.resume-skills {
+    text-align: left !important;
+}
+
+div.resume-education h6 {
+    font-style: italic;
 }
 
 
